@@ -16,7 +16,7 @@ def interpret(source):
 
 
 if len(sys.argv) == 1 or sys.argv[1] == "-h" or sys.argv[1] == "--help":
-    print("""Programming Language S++ """ + version + """ interpreter usage
+    print("""S++ """ + version + """ interpreter usage
 
      -h | --help : Opens the help menu.
      -i <code file> | --interpret <code file> : Changes the given file to a standard C++ source code file.
